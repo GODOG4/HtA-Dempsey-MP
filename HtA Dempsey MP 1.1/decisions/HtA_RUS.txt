@@ -106,28 +106,9 @@ political_decisions = {
 		}
 		
 		allow = {
+			war = no
 			SML = {
 				exists = no
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-						owner = {
-							relation = {
-								who = THIS
-								value = 100
-							}
-						}
-						owned_by = POL
-						owned_by = UKR
-						owned_by = DON
-						owned_by = VIT
-						owned_by = LIT
-						owned_by = BYE
-					}
-				}
 			}
 		}
 

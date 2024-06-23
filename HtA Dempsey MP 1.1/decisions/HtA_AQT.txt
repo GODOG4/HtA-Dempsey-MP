@@ -98,7 +98,10 @@ political_decisions = {
 	romansh_are_aquitanian = {
 		picture = embrace_minority
 		potential = {
-			tag = AQT
+			OR = {
+				tag = AQT
+				tag = PDN
+				}
 			NOT = { accepted_culture = romansh }
 		}
 		

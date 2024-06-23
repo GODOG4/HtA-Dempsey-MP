@@ -1,8 +1,7 @@
 political_decisions = {	
 	form_arab_union = {
 		potential = {
-			is_culture_group = arab
-			civilized = yes
+			tag = EGY
 			NOT = {
 				exists = ARU
 				has_global_flag = arab_call_to_union
@@ -11,25 +10,8 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			is_greater_power = yes
-			nationalism_n_imperialism = 1
-			all_core = { owned_by = THIS }
-			OR = {
-				any_neighbor_country = {
-					is_culture_group = arab
-					in_sphere = THIS
-				}
-				any_owned_province = {
-					OR = {
-						culture = mashriqi
-						culture = maghrebi
-						culture = misri
-						culture = bedouin
-					}
-					is_colonial = no
-					NOT = { is_core = THIS }
-				}
-			}
+			state_n_government = 1
+			owns = 1151
 		}
 		
 		effect = {
@@ -44,12 +26,27 @@ political_decisions = {
 				remove_core = THIS
 				add_core = ARU
 			}
+			JER = {
+				all_core = {
+					add_core = ARU
+				}
+			ARA = {
+				all_core = {
+					add_core = ARU
+				}
+			SYR = {
+				all_core = {
+					add_core = ARU
+				}
+			IRQ = {
+				all_core = {
+					add_core = ARU
+				}
 			change_tag = ARU
-			country_event = 98725
-		}
-		
-		ai_will_do = {
-			factor = 1
+			add_country_modifier = {
+				name = eternal_jihad
+				duration = -1
+			}
 		}
 	}
 }
