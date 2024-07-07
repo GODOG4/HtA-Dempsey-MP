@@ -1,25 +1,25 @@
 mild_climate =
 {
 	farm_rgo_size = 0.0
-	farm_rgo_eff = 0.0
+	farm_rgo_eff = 0.15
 	mine_rgo_size = 0.0
-	mine_rgo_eff = 0.0
+	mine_rgo_eff = 0.15
 }
 
 temperate_climate =
 {
 	farm_rgo_size = 0.0
-	farm_rgo_eff = 0.0
+	farm_rgo_eff = 0.1
 	mine_rgo_size = 0.0
-	mine_rgo_eff = 0.0
+	mine_rgo_eff = 0.1
 }
 
 harsh_climate =
 {
 	farm_rgo_size = 0.0
-	farm_rgo_eff = 0.0
+	farm_rgo_eff = 0.05
 	mine_rgo_size = 0.0
-	mine_rgo_eff = 0.0
+	mine_rgo_eff = 0.05
 	max_attrition = 5
 }
 

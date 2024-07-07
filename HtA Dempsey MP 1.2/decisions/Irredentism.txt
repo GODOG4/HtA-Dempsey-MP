@@ -90,37 +90,37 @@ political_decisions = {
 		}		
 	}
 }
-#	protect_armenia = {
-#		picture = form_transcaucasia
-#		potential = {
-#			tag = PER
-#			NOT = { has_country_flag = protect_armenia }
-#			civilized = yes
-#		}
-#
-#		allow = {
-#			war = no
-#			is_vassal = no
-#			revolution_n_counterrevolution = 1
-#			NOT = {
-#				OR = {
-#					ARM = {	all_core = { owned_by = ARM }
-#					RUM = {	all_core = { owned_by = RUM }
-#					}
-#			}
-#		}
-#
-#		effect = {
-#			badboy = 10
-#			prestige = 10
-#			set_country_flag = protect_armenia	
-#			add_accepted_culture = armenian
-#		}
-#		ai_will_do = {
-#			factor = 1
-#			modifier = {
-#				factor = 0
-#				badboy = 1
-#			}		
-#		}		
-#	}	
+	protect_armenia = {
+		picture = form_transcaucasia
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = protect_armenia }
+			civilized = yes
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			revolution_n_counterrevolution = 1
+			NOT = {
+				OR = {
+					ARM = {	all_core = { owned_by = ARM }
+					RUM = {	all_core = { owned_by = RUM }
+					}
+			}
+		}
+
+		effect = {
+			badboy = 10
+			prestige = 10
+			set_country_flag = protect_armenia	
+			add_accepted_culture = armenian
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 1
+			}		
+		}		
+	}	
